@@ -12,6 +12,7 @@ import java.util.HashMap;
 
 @RestController
 @RequestMapping("/api/libros")
+@CrossOrigin(origins = "*")
 public class LibroController {
 
     @Autowired
